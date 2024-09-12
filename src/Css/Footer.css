@@ -1,0 +1,84 @@
+.footerAddress{
+    background-color: #ff3d00;
+    width: auto;
+    height:7rem;
+    padding: 2rem;
+    border-radius: 15px;
+}
+.address{
+    display: flex;
+}
+.address2{
+    background-color: #050a1e;
+    color: #fff;
+    border-radius: 20px;
+    width: 32%;
+    padding: 5px;
+}
+.address2Icon{
+    margin-left: 50%;
+    padding:7px ;
+}
+.address1 h2{
+    color: #fff;
+    padding-left: 15px;
+}
+.address2 h4{
+    padding-top: 2px;
+}
+.address1Icon{
+    margin-left: -10%;
+}
+.address1Icon img{
+    height: 2.5vw;
+}
+.footer {
+    background: url(https://res.cloudinary.com/dixfg1bvv/image/upload/v1722601735/footer-bg_bp25vm.png);
+    height: 30vw;
+    width: auto;
+    margin-top: -9px;
+    color: #fff;
+}
+.footerLeftSide {
+    padding:10px;
+    margin-top: 3rem;
+}
+.footerLeftSide p{
+    margin-top: 3rem;
+    font-size: 19px;
+}
+.footerSocialMedia{
+    margin-top: 9rem;
+    justify-content: space-evenly;
+}
+.footerSocialMediaIcon{
+  margin-left: 15px;
+  font-size: 20px;
+}
+.footer ul li{
+    list-style: none;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.footer ul{
+    margin-top:3rem ;
+}
+.footerMiddleSide{
+    margin-top: 4rem;
+}
+.footerMiddleSide h4{
+    margin-left: 6%;
+}
+.footerMiddle2Side{
+    margin-top: 4rem;
+}
+.footerMiddle2Side h4{
+    margin-left: 6%;
+}
+.footerRightSide{
+    margin-top: 4rem;
+}
+.footerRightSide p{
+    margin-top: 3rem;
+    font-size: 19px;
+}

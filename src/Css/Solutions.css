@@ -1,0 +1,36 @@
+.solutionImage img{
+    /* height: 15vw; */
+    margin-top: 3rem;
+    width: 80%;
+}
+.solutions{
+    margin-top:4rem ;
+    /* margin-left: 1rem; */
+}
+.solutekCompany h6{
+    color: #ff3d00;
+    border-radius: 30px;
+    background-color: rgba(255, 60, 0, 0.03137254901960784);
+    border: 1px solid rgba(122, 122, 122, 0.15);
+    /* font-size: 10px; */
+    font-weight: 600;
+    width: 30%;
+    text-align: center;
+    padding: 1rem;
+}
+.modernBusiness span{
+    color: #ff3d00;
+}
+.modernBusiness h1{
+    font-weight: 700;
+}
+.solutionImage p{
+    margin-top: -19%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 3rem;
+}
+.essentailSolution{
+    margin-bottom: 2rem;
+}
