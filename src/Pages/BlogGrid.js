@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import { FaAngleLeft } from 'react-icons/fa6'
 import BlogGridDetails from '../Components/BlogGrid/BlogGridDetails'
+import Footer from '../Components/Footer'
 
 const BlogGrid = () => {
   const BlogGrid=[
@@ -70,6 +71,7 @@ const BlogGrid = () => {
         </div>
 
       </div>
+      <Footer/>
     </div>
   )
 }

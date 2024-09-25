@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className=" col-md-7 ">
-            <div className="solutekCompany recentUpdates">
+            <div className="GoldVision recentUpdates">
               <h6>CONTACT US</h6>
             </div>
             <div className="contactUs">

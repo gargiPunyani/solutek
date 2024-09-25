@@ -1,8 +1,8 @@
 .footerAddress{
     background-color: #ff3d00;
     width: auto;
-    height:7rem;
-    padding: 2rem;
+    height:6rem;
+    padding: 1.3rem;
     border-radius: 15px;
 }
 .address{
@@ -34,10 +34,13 @@
 }
 .footer {
     background: url(https://res.cloudinary.com/dixfg1bvv/image/upload/v1722601735/footer-bg_bp25vm.png);
-    height: 30vw;
+    height: 34vw;
     width: auto;
     margin-top: -9px;
     color: #fff;
+}
+.footerLogo{
+    height: 4vw;
 }
 .footerLeftSide {
     padding:10px;

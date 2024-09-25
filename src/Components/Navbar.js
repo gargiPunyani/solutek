@@ -8,8 +8,9 @@ const Navbar = () => {
     <div>
       <div className="navbar">
         <img
-          src="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722416964/footer-logo_hhrexq.png"
-          alt=""
+          className="logoImage"
+          src="https://res.cloudinary.com/dixfg1bvv/image/upload/v1727262458/WhatsApp_Image_2024-09-25_at_16.34.25_a870efb2_yzhj1c.jpg"
+          alt="logo"
         />
         <nav className="nav-head">
           <ul>
@@ -19,62 +20,28 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              Company <FaAngleDown className="angleDownIcon" />
-              <ul className="dropdown">
-                <li>
-                  <Link className="dropdownLink" to="/about">
-                    About Us{" "}
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdownLink" to="/team">
-                    Our Team
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdownLink" to="/teamDetails">
-                    Team Details
-                  </Link>
-                </li>
-                <li>
-                <Link className="dropdownLink" to="/project">
-                  Project
-                  </Link>
-                  </li>
-                <li><Link className="dropdownLink" to="/pricing">
-                  Pricing
-                  </Link>
-                  </li>
-                <li>
-                  <Link className="dropdownLink" to="/contact">Contact
-                  </Link>
-                  </li>
-              </ul>
+              <Link className="link" to="/about">
+                About Us
+              </Link>
             </li>
             <li>
-            <Link className="link" to="/portfolio">
-            Portfolio
-            </Link></li>
+              <Link className="link" to="/project">
+                Projects
+              </Link>
+            </li>
             <li>
-            <Link className="link" to="/services">
-            Services
-            </Link></li>
+              <Link className="link" to="/services">
+                Services
+              </Link>
+            </li>
             <li>
-            <Link className="link" to="/blogs">
-              Blog
-              </Link></li>
-            <li>
-           <Link className="link" to="/contact">
-              Contact
-              </Link></li>
+              <Link className="link" to="/contact">
+                Contact
+              </Link>
+            </li>
+            <li></li>
           </ul>
         </nav>
-        <div className="quote">
-          <p><Link className="link" to="/contact">
-            GET A QUOTE NOW <FaArrowRight className="arrowRightIcon" />
-            </Link>
-          </p>
-        </div>
       </div>
     </div>
   );

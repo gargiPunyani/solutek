@@ -2,6 +2,7 @@
     font-size:45px ;
     font-weight: 700;
     margin: 2rem;
+    margin-left: -7rem;
 }
 .plans p{
     font-size: 20px;
@@ -41,7 +42,7 @@
 .pricingBody{
     background: url(https://res.cloudinary.com/dixfg1bvv/image/upload/v1722247708/featurebg_vjrhxi.png);
     background-color: #e4e4e4f0;
-    height:23vw;
+    height:27vw;
     width: 100%;
     margin-top: 1rem;
 

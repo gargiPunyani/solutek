@@ -8,6 +8,10 @@
     /* margin-top: 10px; */
     margin-bottom: 0;
 }
+.logoImage{
+    height: 3vw;
+    /* width: 100%; */
+}
 .dropdown {
     display: flex;
     flex-direction: column;
@@ -60,7 +64,7 @@
     display: flex;
     position: fixed;
     justify-content: space-between;
-    background-color: #262626;
+    background-color: #000;
     color: #fff;
     /* padding: 1rem; */
     z-index: 3;

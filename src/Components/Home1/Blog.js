@@ -9,7 +9,7 @@ const Blog = () => {
       <div className="container">
         <div className="row ">
             <div className="col-md-8">
-            <div className="solutekCompany recentUpdates">
+            <div className="GoldVision recentUpdates">
             <h6>OUR LATEST BLOG</h6>
             </div>
             <div className="blogHeading">
@@ -49,10 +49,10 @@ const Blog = () => {
                 </div>
                 <div className="blogsBody">
                     <h4>
-                    Leveraging Descriptive Solutions for Business Growth.
+                    How to Create Modern Web Site For Your Business?
                     </h4>
                     <p>
-                    Appropriatel promote enterprise-wide vortals throuh in information without equity best revolutioniz.
+                    Laravel is an open-source PHP framework, which is robust and easy to understand....
                     </p>
                 </div>
                 </div>
@@ -66,7 +66,7 @@ const Blog = () => {
                 <div className="blogData" >
                 <div className="blogDate">
                     <div className="date">
-                     <FaCalendar className="calendar"/> 28 July, 2024
+                     <FaCalendar className="calendar"/> 20 January, 2024
 
                     </div>
                     <div className="">
@@ -81,7 +81,7 @@ const Blog = () => {
                     How to Create Modern Web Site For Your Business..
                     </h4>
                     <p>
-                    Appropriatel promote enterprise-wide throuh in information without best revolutioniz
+                    Key factors in establishing credibility, engaging customers, and driving growth......
                     </p>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ const Blog = () => {
                 <div className="blogData" >
                 <div className="blogDate">
                     <div className="date">
-                     <FaCalendar className="calendar"/> 28 July, 2024
+                     <FaCalendar className="calendar"/> 18 June, 2023
 
                     </div>
                     <div className="">
@@ -105,10 +105,10 @@ const Blog = () => {
                 </div>
                 <div className="blogBody">
                     <h4>
-                    How to Create Modern Web Site For Your Business..
+                    Google releases Flutter for Windows..
                     </h4>
                     <p>
-                    Appropriatel promote enterprise-wide throuh in information without best revolutioniz
+                    Thrilled to see Flutter developers bringing their experiences to Windows and also publishing to the Microsoft Store....
                     </p>
                     </div>
                 </div>

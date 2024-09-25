@@ -5,7 +5,7 @@
 }
 .projects{
     background-color:#d4d4d44a;
-    height: 87vw;
+    /* height: 87vw; */
 }
 .recentProjects span{
     color: #ff3d00;
@@ -36,7 +36,7 @@
 
 }
 .recentUpdates{
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 .slickData {
     height: 50vw;
@@ -45,4 +45,8 @@
     background-position: center;
     padding: 120px 0 88px;
     /* z-index: 1; */
+}
+.Link{
+    text-decoration: none;
+    color: white;
 }

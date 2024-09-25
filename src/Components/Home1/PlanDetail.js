@@ -3,37 +3,38 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 export const PlanDetail = (props) => {
   return (
-    <div className="col-md-3">
+    <div >
       <div className="pricingHead">
         <h2>{props.price}</h2>
-        <h5>{props.plan}</h5>
+        <h3>{props.plan}</h3>
       </div>
       <div className="pricingBody">
         <ul>
           <li>
             <FaCircleCheck className="checkIcon" />
-            30 Days Trial Features
+           { props.trailFeatures}
           </li>
           <li>
             <FaCircleCheck className="checkIcon" />
-            Multi-Language Content
+           { props.content}
           </li>
           <li>
             <FaCircleCheck className="checkIcon" /> 
-            Unlimited Features
+            {props.unlimitedFeatures}
           </li>
           <li>
             <FaCircleCheck className="checkIcon" />
-            Data backup and recovery
+           {props.recovery}
           </li>
           <li>
             <FaCircleCheck className="checkIcon" />
-            Synced To Cloud Database
+            {props.support}
           </li>
         </ul>
         <div className="plans">
         <button className="plan">Choose Plan</button>
         </div>
+        
       </div>
       
  </div>

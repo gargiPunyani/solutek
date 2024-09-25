@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import { FaAngleLeft } from 'react-icons/fa6'
 import Plans from "../Components/Home1/Plans"
 import Blog from "../Components/Home1/Blog"
+import Footer from '../Components/Footer'
 const Pricing = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const Pricing = () => {
           </div>
         <Plans/>
         <Blog/>
+        <Footer/>
     </div>
   )
 }

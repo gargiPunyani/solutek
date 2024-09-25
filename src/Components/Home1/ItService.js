@@ -16,19 +16,17 @@ const ItService = () => {
     <div className="container-fluid services">
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-lg-7 col-md-12 col-sm-12 col-12">
             <div className="serviceProvided">
               <div className="servicesAvailable">
-                <h5>SOLUTEK IT SERVICES</h5>
+                <h5>GOLD VISION SERVICES</h5>
                 <div className="itServicesHeader">
-                  <h1>
-                    The Beauty Behind
-                    <br />
-                    IT Services.
-                  </h1>
+                  <h2>
+                  Empowering Innovation 
+                  <br/>with <span> Precision Technology</span>
+                  </h2>
                   <p>
-                    Where your interests international networks intersect provid
-                    custom software solutions for any value software.
+                  At Gold Vision, we transform ideas into cutting-edge solutions. Our expert team specializes in custom software development, mobile app design, and digital marketing strategies to drive your business forward. Discover the future of innovation with Gold Vision – where your vision turns into reality
                   </p>
                 </div>
                 <div className="exploreMoreBtn">
@@ -37,7 +35,7 @@ const ItService = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-lg-4 col-md-12 col-sm-12 col-12 ">
             <div className="itSevicesImage">
               <img
                 src="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722230848/soluhome1_aub2o8.png"
@@ -45,44 +43,6 @@ const ItService = () => {
               />
             </div>
           </div>
-        
-    
-      <div className=" feauterss">
-        <div>
-          <Feature
-            image="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722247352/feature1_axwdky.png"
-            heading="Data Security"
-          />
-        </div>
-
-        <div>
-          <Feature
-            image="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722247378/feature2_hualex.png"
-            heading="Digital Marketing"
-          />{" "}
-        </div>
-
-        <div>
-          <Feature
-            image="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722247698/feature3_honqiy.png"
-            heading="Data Security"
-          />{" "}
-        </div>
-
-        <div>
-          <Feature
-            image="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722247699/feature4_obcp7z.png"
-            heading="Data Security"
-          />{" "}
-        </div>
-
-        <div>
-          <Feature
-            image="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722247699/feature5_xvrpcq.png"
-            heading="Data Security"
-          />
-        </div>
-      </div>
     </div>
     </div>
     <EssentialSolution/>
@@ -92,7 +52,7 @@ const ItService = () => {
     <Guide/>
     <Testimonials/>
     <Contact/>
-    <Blog/>
+    {/* <Blog/> */}
     <Footer/>
     </div>
   );

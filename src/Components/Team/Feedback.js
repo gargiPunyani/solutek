@@ -24,7 +24,7 @@ const Feedback = () => {
   return (
     <div className="container-fluid">
       <div className="clientFeedback">
-        <div className="solutekCompany teamMembers ">
+        <div className="Gold Vision Company teamMembers ">
           <h6>CLIENTS FEEDBACK</h6>
         </div>
 

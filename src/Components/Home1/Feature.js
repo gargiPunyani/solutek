@@ -11,7 +11,7 @@ const Feature = (props) => {
                     </div>
                     <div>
                         <h2>{props.heading}</h2>
-                      <p> Monotonectally solutek in fermentum quis</p>
+                      <p> Monotonectally Gold Vision  in fermentum quis</p>
                     </div>
                 </div>
             </div>

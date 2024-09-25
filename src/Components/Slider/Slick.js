@@ -10,8 +10,8 @@ const Slick = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1800,
-    autoplaySpeed: 1800,
+    speed: 3000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
   };
 

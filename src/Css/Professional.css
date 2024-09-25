@@ -34,9 +34,9 @@
     margin: 2rem;
 }
 .professionalDetails p{
-    text-align: justify;
+    text-align: start;
     font-size: 18px;
-    /* padding: 1.5rem; */
+    padding: 5px;
 }
 .professionalDetails h4{
     font-weight: 700;

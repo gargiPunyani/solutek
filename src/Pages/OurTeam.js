@@ -25,7 +25,7 @@ const OurTeam = () => {
         </div>
       </div>
       <div className="container-fluid ">
-      <div className="solutekCompany teamMembers ">
+      <div className="Gold Vision Company teamMembers ">
               <h6>OUR TEAM MEMBERS</h6>
             </div>
             <div className="teamMember">

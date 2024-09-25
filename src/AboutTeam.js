@@ -22,7 +22,7 @@ const AboutTeam = () => {
           </div>
           <div className='container'>
             <div className='row'>
-                <div className='col-md-6 teamDetailMember'>
+                <div className='col-lg-6 col-md-12 col-sm-12 col-12 teamDetailMember'>
                     <img src='https://res.cloudinary.com/dixfg1bvv/image/upload/v1722503467/team-inner1_vmilca.png' alt="teamMember"/>
                 </div>
                 <div className='col-md-6 aboutTeamMember'>

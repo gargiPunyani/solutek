@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import { FaAngleLeft } from "react-icons/fa6";
 import ProjectDoneDetails from "../Components/ProjectDoneDetails";
 import "../Css/ProjectDone.css";
+import Footer from "../Components/Footer";
 
 const ProjectDone = () => {
   // obj = {name, class, age}
@@ -67,25 +68,6 @@ const ProjectDone = () => {
 
       <div className="container-fluid">
         <div className="container">
-          <div className="ProjectOptions">
-            <div className="projectOptionGiven">
-              <span>See All</span>
-            </div>
-            <div className="projectOptionGiven">
-              <span>Technology</span>
-            </div>
-            <div className="projectOptionGiven">
-              <span>
-                Analysis
-              </span>
-            </div>
-            <div className="projectOptionGiven">
-              <span>Help Desk</span>
-            </div>
-            <div className="projectOptionGiven">
-              <span>Marketing</span>
-            </div>
-          </div>
           <div className="row projectDoneDetails">
             {projectDone.map((item, id) => {
               return (
@@ -95,6 +77,7 @@ const ProjectDone = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

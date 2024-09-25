@@ -6,6 +6,7 @@ import { FaAngleLeft, FaCircle} from 'react-icons/fa6'
 import CountUp from 'react-countup';
 import Project from '../Components/Home1/Project';
 import Blog from '../Components/Home1/Blog';
+import Footer from '../Components/Footer';
 
 const About = () => {
 
@@ -26,8 +27,8 @@ const About = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-6'>
-              <div className="solutekCompany recentUpdates">
-              <h6>SOLUTEK COMPANY</h6>
+              <div className="GoldVision   recentUpdates">
+              <h6>GOLD VISION COMPANY</h6>
             </div>
             <div className='AboutSolution'>
             <h1>We Can Clients With The About
@@ -35,8 +36,8 @@ const About = () => {
             </div>
             <div className='AboutSolution'>
               <p>
-              Monotonectally repurpose maintainable infrastruct whereas solutek in fermentum quis tempo sapien maximus design.</p>
-            </div>
+              We build robust, scalable software tailored to your business processes, ensuring it aligns perfectly with your operational goals. 
+              </p>   </div>
             <div className='bestItSolutions'>
               <div className='solutionsList'>
               <ul>
@@ -76,6 +77,7 @@ const About = () => {
           </div>
           <Project/>
           <Blog/>
+          <Footer/>
           
     </div>
   )

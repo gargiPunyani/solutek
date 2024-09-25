@@ -53,23 +53,23 @@ const Guide = () => {
           </div>
           <GuideDetails
             open={accordionData.one}
-            question="What Medical Services Do You Provide?"
-            answer="Appropriately promote enterprise-wide vortals throuh innovative information evolve go forward markets whereas synergistic applications power full sound quality vectors without equity invested best practices revolutionize enterprise-wide vortals through innovative."
+            question="How we help with software development for business?"
+            answer="We specialize in building custom software solutions that streamline your operations and enhance productivity. Our team works closely with you to understand your requirements, developing scalable and efficient software to support your business goals."
             id={1}
             handleClick={handleOpen}
           />
           <GuideDetails
             open={accordionData.two}
-            question="What is your customer geography?"
-            answer="Appropriately promote enterprise-wide vortals throuh innovative information evolve go forward markets whereas synergistic applications power full sound quality vectors without equity invested best practices revolutionize enterprise-wide vortals through innovative."
+            question="How does Gold Vision ensure the availability of business data?"
+            answer="We offer cloud-based infrastructure with high availability and failover mechanisms. Our data centers are equipped with redundancy and disaster recovery plans to ensure your business remains operational, even in the event of an outage."
             id={2}
             handleClick={handleOpen}
           />
 
           <GuideDetails
             open={accordionData.three}
-            question="What are the main industries we serve?"
-            answer="Appropriately promote enterprise-wide vortals throuh innovative information evolve go forward markets whereas synergistic applications power full sound quality vectors without equity invested best practices revolutionize enterprise-wide vortals through innovative"
+            question="What kind of support can I expect if something goes wrong?"
+            answer=" Depending on your plan, we offer dedicated support ranging from business hours assistance in the Basic plan to 24/7 priority support in our Premium plan. Our technical experts are always ready to resolve any issues you encounter."
             id={3}
             handleClick={handleOpen}
           />
