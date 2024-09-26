@@ -3,7 +3,7 @@ import { FaPlus } from 'react-icons/fa6'
 
 export const ProfessinalDetails = (props) => {
   return (
-    <div className='col-md-3 professionalDetails'>
+    <div className='col-lg-3 col-md-12 col-sm-12 col-12 professionalDetails'>
         <div>
             <img src={props.image} alt=''/>
         </div>

@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="container-fluid">
       <div className="container">
         <div className="row">
-          <div className=" col-md-7 ">
+          <div className=" col-lg-7 col-md-7 col-sm-12 col-12 ">
             <div className="GoldVision recentUpdates">
               <h6>CONTACT US</h6>
             </div>
@@ -18,16 +18,16 @@ const Contact = () => {
             <div className="">
               <form>
                 <div className="row contactform">
-                  <div className="col-md-6">
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                     <input type="text" placeholder="Name" />
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                     <input type="email" placeholder="E-mail" />
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                     <input type="text" placeholder="Subject" />
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                     <input type="text" placeholder="Contact" />
                   </div>
 
@@ -43,7 +43,7 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="col-md-5 contactImage">
+          <div className="col-lg-5 col-md-5 col-sm-12 col-12 contactImage">
             <img
               src="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722585802/contactUS_qb9iia.png"
               alt=""

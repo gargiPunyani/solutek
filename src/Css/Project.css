@@ -50,3 +50,34 @@
     text-decoration: none;
     color: white;
 }
+
+@media (max-width:800px) {
+    .projectDetailBtn{
+        margin-top: 0rem;
+        margin-bottom: 5rem;
+        /* margin-left: 79%; */
+    }
+    .recentUpdates h6{
+        width: 66%;
+        /* margin-left: 35% */
+    } 
+}
+@media (max-width:450px) {
+    .recentUpdates h6{
+        width: 60% ;
+        margin-left: 1% !important;
+    }
+    .recentProjects h2{
+        margin-bottom: 0;
+        /* padding: 1rem; */
+    }
+    .projectDetailBtn{
+        margin-top: 5rem !important;
+        margin-bottom: 5rem;
+        /* margin-left: 79%; */
+        width: 32vw;
+    }
+    .slickData{
+        height: 100%;
+    }
+}

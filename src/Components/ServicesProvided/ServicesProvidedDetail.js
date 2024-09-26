@@ -3,10 +3,10 @@ import { FaPlus } from 'react-icons/fa6'
 
 const ServicesProvidedDetail = ({image, service}) => {
   return (
-    <div className='col-md-3'>
+    <div className='col-lg-3 col-md-3 col-sm-12 col-12'>
         <div className='servicesDetailProvided'>
             <div>
-                <img src={image} alt='services' />
+                <img className='serviceDetialsImage' src={image} alt='services' />
             </div>
             <div className='servicesDetails'>
                 <img src='https://res.cloudinary.com/dixfg1bvv/image/upload/v1722669881/service-icon_oza2to.png' alt='serviceIcon'/>

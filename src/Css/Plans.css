@@ -63,3 +63,41 @@
 .plans{
    text-align: center; 
 }
+@media (max-width:1024px) {
+    .plans h2{
+        margin-left: -23rem;
+    }
+    .pricingHead{
+        height: 13vw;
+    }
+    .pricingBody{
+        height: 52vw;
+    }
+    
+    @media (max-width:900px) {
+        .plans h2{
+            margin-left: -8rem;
+        }
+        .pricingHead{
+            height: 18vw;
+        }
+        .pricingBody{
+            height: 64vw;
+        }
+        
+    }
+}
+@media (max-width:500px) {
+   
+    .plans h2{
+        margin-left: 0rem;
+    }
+    .pricingHead{
+        height: 32vw;
+    }
+    .pricingBody{
+        height: 95vw;
+    }
+    
+
+}

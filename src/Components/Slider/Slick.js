@@ -16,7 +16,7 @@ const Slick = () => {
   };
 
   return (
-    <div className="container-fluid container slide">
+    <div className="container-fluid container slide mb-5">
       <div className="slider-container ">
         <Slider {...settings}>
           <div>

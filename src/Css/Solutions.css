@@ -40,3 +40,76 @@
 .cloudSolution img{
     margin-right: 10px;
 }
+@media (max-width:1024px) {
+    .GoldVision h6{
+        width: 48%
+    }
+    .essentailSolution{
+        margin-top: 5rem;
+    }    
+    .solutionImage img{
+        height: 40vw;
+        width: 100%;
+        margin-top: 6rem;
+    }
+    .solutionImage p{
+        margin-top: -7rem;
+        margin-left: 2rem;
+        font-size: 18px
+    }
+    .modernBusiness h1{
+        font-size: 38px;
+    }
+}
+@media (max-width:800px) {
+    .GoldVision h6{
+        width: 64%
+    }
+    .essentailSolution{
+        margin-top: 5rem;
+    }    
+    .solutionImage img{
+        height: 100%;
+        width: 100%;
+        margin-top:0rem;
+    }
+    .solutionImage p{
+        margin-top: -8.5rem;
+        margin-left: 5rem;
+        font-size: 20px;
+    }
+    .modernBusiness h1{
+        font-size: 38px;
+    }
+    .solutions {
+        margin-top: 4rem;
+        margin-left: 12rem;
+    }
+    .teamMembers h6{
+        width: 66%;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+}
+@media (max-width:450px) {
+    .solutionImage p{
+        margin-top: -12.5rem;
+        margin-left: 7rem;
+        font-size: 31px;
+    }
+    .solutions {
+        margin-top: 4rem;
+        margin-left: 1rem;
+    }
+    .teamMembers h6{
+        width: 66%;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+
+
+}

@@ -37,24 +37,22 @@ const Plans = () => {
     <div className="bestPlans">
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-6 ">
             <div className="GoldVision businessplans ">
               <h6>START BUSINESS</h6>
+            </div>
             </div>
             <div className="plans">
               <h2>Choose Your Best Plan</h2>
             </div>
-          </div>
-          <div className="col-md-6 plans">
-           
-          </div>
+         
         </div>
       </div>
       <div className="container">
         <div className="row">
           {planData.map((item)=>{
             return(
-              <div className="col-lg-4 col-md-12 col-sm-12 col-12"  key={item.id}>
+              <div className="col-lg-4 col-md-6 col-sm-12 col-12 mb-5 "  key={item.id}>
               <PlanDetail
               price={item.price}
               plan={item.plan}

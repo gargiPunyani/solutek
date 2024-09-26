@@ -52,3 +52,21 @@
     /* position: absolute; */
    margin-right: 5%;
 }
+@media (max-width: 1024px) {
+    .professionalDetails
+    {
+        width: 37%;
+    }
+}
+@media (max-width: 900px) {
+    .professionalDetails
+    {
+        width: 37%;
+    }
+}
+@media (max-width: 450px) {
+    .professionalDetails
+    {
+        width: 42%;
+    }
+}

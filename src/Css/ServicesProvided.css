@@ -123,3 +123,35 @@ margin-bottom: 5rem;
     text-align: center;
     margin-bottom: 5rem;
 }
+@media (max-width:768px) {
+  .serviceDetialsImage{
+    height: 100%;
+    width: 100%;
+  }
+  .servicesDetails {
+    height: 7vw;
+    margin-top: -5rem;
+    width: 7vw;
+  }
+  .servicesDetails img{
+    height: 100%;
+
+  }
+}
+@media (max-width:450px) {
+  .serviceDetialsImage{
+    height: 100%;
+    width: 100%;
+  }
+  .servicesDetails {
+    height: 10vw;
+    margin-top: 6rem;
+    width: 10vw;
+  } 
+   .servicesDetails img{
+    height: 5.5vw;
+    margin-top: -12px;
+    margin-left: -5px;
+
+  }
+}

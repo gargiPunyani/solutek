@@ -63,3 +63,9 @@ border-radius: 50%;
     background-color: #ff3d00;
     color: #fff;
 }
+@media (max-width:800px) {
+    .projectMade img{
+        height: 100%;
+        width: 100%;
+    }    
+}

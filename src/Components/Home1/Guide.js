@@ -23,7 +23,7 @@ const Guide = () => {
   return (
     <div className="conatiner">
       <div className="row">
-        <div className="col-md-6 ">
+        <div className="col-lg-6 col-md-6 col-sm-12 col-12 ">
           <div className="updates">
             <div className="business">
               <h1>Keeping Your Business</h1>
@@ -40,7 +40,7 @@ const Guide = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6 faq">
+        <div className="col-lg-6 col-md-6 col-sm-12 col-12 faq">
           <div className="frequentlyAsk">
             <h2>
               A Comprehensive

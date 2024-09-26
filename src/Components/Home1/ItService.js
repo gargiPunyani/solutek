@@ -8,7 +8,7 @@ import Plans from "./Plans";
 import Guide from "./Guide";
 import Testimonials from "../Testimonials";
 import Contact from "./Contact";
-import Blog from "./Blog";
+// import Blog from "./Blog";
 import Footer from "../Footer";
 
 const ItService = () => {

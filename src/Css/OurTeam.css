@@ -88,3 +88,21 @@
 .feedbackclients{
     margin: 2rem;
 }
+@media (max-width:800px) {
+    .teamMembers h6{
+        width: 66%;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+}
+@media (max-width:450px) {
+    .teamMembers h6{
+        width: 66%;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+}

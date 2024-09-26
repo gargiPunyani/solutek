@@ -1,13 +1,15 @@
 .aboutUs{
     background-image: url(https://res.cloudinary.com/dixfg1bvv/image/upload/v1722488439/breadcumb-bg_l3dos6.png);
-    background-repeat: none;
-    height: 28vw;
-    width: 100%;
+    /* background-color: red; */
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
     color: #fff;
     text-align: center;
  }
  .AboutUSHeader h1{ 
-    padding: 10rem;
+    padding: 10rem; 
     font-weight: 700;
     font-size: 50px;
  }
@@ -80,6 +82,10 @@
     padding: 3rem;
     margin-top: 4rem;
 }
+.aboutImage img{
+    height: 100%;
+    width: 100%;
+}
 .ExploreMoreBtn{
     color: #fff;
     background-color: #ff3d00;
@@ -89,4 +95,84 @@
     width: 9vw;
     margin-top: 2rem;
     margin-left: 2rem;
+}
+@media (max-width: 768px) {
+    .row, .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+    }
+}
+@media (max-width:1054px) {
+    .aboutUs{
+        height: 100%;
+        width: 100%;
+    }
+    .counterImage{
+        margin-left: -46px;
+    }
+    .ExploreMoreBtn{
+        width: 20vw;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width:800px) {
+    .aboutUs{
+        height: 100%;
+        width: 100%;
+    }
+    .aboutClients{
+        height: 20vw;
+        width: 20vw;
+        margin-left: 20px;
+    }
+    .AboutUSHeader h1{
+        padding: 8rem;
+
+    }
+    .About h6{
+        margin-top: -5rem;
+
+    }
+    .counterImage{
+        margin-left: 4rem;
+    }
+    .ExploreMoreBtn{
+        width: 20vw;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width:450px) {
+    .aboutUs{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .aboutClients{
+        height: 31vw;
+        width: 30vw;
+        margin-left: 6px;
+    
+    }
+    .AboutUSHeader h1{
+        padding: 6rem;
+        font-size: 25px;
+    }
+    .About h6{
+       display: none;
+
+    }
+    .counterImage{
+        margin-left: 2rem;
+    }
+    .ExploreMoreBtn{
+        width: 35vw;
+        /* margin-bottom: 1rem; */
+    }
+    .aboutImage img{
+        display: none;
+    }
+    .aboutImage{
+        padding: 0;
+        margin-top:0 ;
+    }
 }

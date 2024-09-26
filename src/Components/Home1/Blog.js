@@ -8,7 +8,7 @@ const Blog = () => {
     <div className="container-fluid Blogs">
       <div className="container">
         <div className="row ">
-            <div className="col-md-8">
+            <div className="col-lg-8 col-md-8 col-sm-12 col-12">
             <div className="GoldVision recentUpdates">
             <h6>OUR LATEST BLOG</h6>
             </div>
@@ -20,8 +20,8 @@ const Blog = () => {
             </h1>
             </div>
           </div>
-          <div className="col-md-3">
-            <div className="viewBlogs">
+          <div className="col-lg-3 col-md-3 col-sm-12 col-12">
+            <div className="viewBlogs"> 
                 <button className="viewBlogsBtn">
                  BLOGS
                 </button>
@@ -30,7 +30,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="row">
-            <div className="col-md-6">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-12 mb-5">
                 <div className="blogLeftSide">
                     <img src="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722422694/blog1_dj0wwl.png" alt="blog1"/>
                 </div>
@@ -57,7 +57,7 @@ const Blog = () => {
                 </div>
                 </div>
             </div>
-           <div className="col-md-6">
+           <div className="col-lg-12 col-md-6 col-sm-12 col-12">
             <div>
                 <div className="blogRightSideTop">
                 <div className="blogImage">
@@ -66,7 +66,7 @@ const Blog = () => {
                 <div className="blogData" >
                 <div className="blogDate">
                     <div className="date">
-                     <FaCalendar className="calendar"/> 20 January, 2024
+                     <FaCalendar className="calendar"/> 20 Jan, 2024
 
                     </div>
                     <div className="">

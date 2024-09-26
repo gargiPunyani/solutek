@@ -28,3 +28,16 @@
 .customerReview span{
     color: #ff3d00;
 }
+@media (max-width:1024px) {
+    .testinomailsHead h5{
+        width: 25%
+    }
+    .testimonials{
+        height: 100%;
+    }
+}
+@media (max-width:800px) {
+    .testinomailsHead h5{
+        width: 25%
+    }
+}

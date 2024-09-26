@@ -1,9 +1,16 @@
 import React from "react";
-import { FaAngleDown, FaArrowRight } from "react-icons/fa6";
 import "../Css/Navbar.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const showSidebar = () => {
+    const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = 'flex'
+  };
+  const hideSidebar=()=>{
+    const sidebar = document.querySelector(".sidebar")
+  sidebar.style.display = 'none'
+}
   return (
     <div>
       <div className="navbar">
@@ -15,8 +22,65 @@ const Navbar = () => {
         <nav className="nav-head">
           <ul>
             <li>
-              <Link className="link" to="/">
+              <Link className="hideOnMobile link" to="/">
                 Home
+              </Link>
+            </li>
+            <li>
+              <Link className="hideOnMobile link" to="/about">
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link className="hideOnMobile link" to="/project">
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link className="hideOnMobile link" to="/services">
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link className="hideOnMobile link" to="/contact">
+                Contact
+              </Link>
+            </li>
+            <li>
+              <li className="menu" onClick={showSidebar}>
+                <Link className="link" to="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="26px"
+                    viewBox="0 -960 960 960"
+                    width="26px"
+                    fill="#ffffff"
+                  >
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                  </svg>
+                </Link>
+              </li>
+            </li>
+          </ul>
+        </nav>   
+        </div>
+        <div>  
+        <nav className="nav-head">
+          <ul className="sidebar"> 
+            <li className="imageLink" onClick={hideSidebar}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26px"
+                viewBox="0 -960 960 960"
+                width="26px"
+                fill="#ffff"
+              >
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+              </svg>
+            </li>
+
+            <li>
+              <Link className="link" to="/">Home
               </Link>
             </li>
             <li>

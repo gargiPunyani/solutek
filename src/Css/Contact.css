@@ -34,4 +34,18 @@
     border: none;
     height: 40px;
     font-size: 20px;
+    margin-bottom: 1rem;
+}
+@media (max-width:1024px) {
+    .contactImage img{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (max-width:500px) {
+    .contactImage img{
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
 }
