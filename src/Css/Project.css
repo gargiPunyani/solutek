@@ -23,6 +23,12 @@
     padding: 4px;
     
 }
+.professionalServicesGiven{
+gap: 20px;
+display: flex;
+align-items: center;
+justify-content: center;}
+
 .brandNames{
     background-color: #ff3d00;
     /* margin-top: 3rem; */
@@ -51,31 +57,45 @@
     color: white;
 }
 
-@media (max-width:800px) {
+@media (max-width:1024px) {
     .projectDetailBtn{
         margin-top: 0rem;
         margin-bottom: 5rem;
         /* margin-left: 79%; */
     }
     .recentUpdates h6{
-        width: 66%;
+        width: 35%;
         /* margin-left: 35% */
     } 
+    .recentProjects h2{
+        font-size: 30px;
+    }
+    .projectDetailBtn{
+        font-size: 20px;
+    }
+    .slickData{
+        height: 100%;
+    }
 }
 @media (max-width:450px) {
     .recentUpdates h6{
         width: 60% ;
         margin-left: 1% !important;
+        padding-top: 1rem;
     }
     .recentProjects h2{
         margin-bottom: 0;
         /* padding: 1rem; */
+        font-size: 33px;
     }
-    .projectDetailBtn{
-        margin-top: 5rem !important;
-        margin-bottom: 5rem;
-        /* margin-left: 79%; */
-        width: 32vw;
+    .projectDetailBtn {
+        /* margin-top: 5rem !important; */
+        margin-bottom: 2rem;
+        margin-left: 0;
+        width: auto;
+        padding: 7px;
+        font-size: 15px;
+        margin-top: 20px;
     }
     .slickData{
         height: 100%;

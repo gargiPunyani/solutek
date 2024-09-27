@@ -41,11 +41,41 @@
         height: 100%;
         width: 100%;
     }
+    .contactUs h1{
+        font-size: 30px;
+    }
+    .contactform input{
+        height: 3rem;
+    }
 }
-@media (max-width:500px) {
+@media (max-width:900px) {
     .contactImage img{
         height: 100%;
         width: 100%;
         margin-left: 0;
+    }
+    .contactImage img{
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .contactUs h1{
+        font-size: 27px;
+    }
+    .contactform input{
+        height: 3rem;
+    }
+}
+@media (max-width:467px) {
+    .contactImage img{
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .contactUs h1{
+        font-size: 27px;
+    }
+    .contactform input{
+        height: 3rem;
     }
 }

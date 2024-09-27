@@ -30,14 +30,24 @@
 }
 @media (max-width:1024px) {
     .testinomailsHead h5{
-        width: 25%
+        width:auto
     }
     .testimonials{
         height: 100%;
     }
 }
-@media (max-width:800px) {
+@media (max-width:900px) {
     .testinomailsHead h5{
-        width: 25%
+        width: auto
     }
+}
+@media (max-width:767px) {
+    .testinomailsHead h5{
+        width:auto
+    }
+    .customerReview h1 {
+        color: #fff;
+        font-size: 33px;
+        font-weight: 700;
+    }   
 }

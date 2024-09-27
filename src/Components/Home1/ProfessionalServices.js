@@ -15,7 +15,7 @@ const ProfessionalServices = () => {
             <span> Success.</span></h2>
         </div>
         <div className="container">
-            <div className="row">
+            <div className="row professionalServicesGiven">
                <ProfessinalDetails
                     image="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722314578/service2_s2rh3i.png"
                     head="Cloud Computing"

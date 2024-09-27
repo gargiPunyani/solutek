@@ -10,7 +10,7 @@ const EssentialSolution = () => {
                     <img src='https://res.cloudinary.com/dixfg1bvv/image/upload/v1722254349/solutions1_s9yjoy.png' alt=''/>
                     <p>BEST IN GOLD VISION</p>
                 </div>
-                <div className='col-md-6 solutions'>
+                <div className='col-lg-6 col-md-12 col-sm-12 col-12 solutions'>
                     <div className='GoldVision'>
                         <h6>GOLD VISION COMPANY</h6>
                     </div>

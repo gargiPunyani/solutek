@@ -7,6 +7,7 @@
     /* padding-top: 4px; */
     /* margin-top: 10px; */
     margin-bottom: 0;
+    padding: 12px;
 }
 .logoImage{
     height: 3vw;
@@ -105,6 +106,10 @@
         display: none;
         visibility: hidden;
     }
+    .menu{
+        visibility:hidden ;
+    }
+  
 }
 @media(max-width: 1024px){
     .sidebar{
@@ -112,13 +117,17 @@
         visibility: hidden;
     }
 }
-@media(max-width: 800px){
+@media(max-width: 768px){
     .hideOnMobile{
         display: none;
         visibility: hidden;
     }
+    .navbar{
+        width: 100% ;
+    }
 
     .menu{
+        visibility: visible;
         display: flex;
         justify-items: flex-end;
        

@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Css/Navbar.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [sidebar, setSidebar]=useState(false)
+
   const showSidebar = () => {
-    const sidebar = document.querySelector(".sidebar")
-        sidebar.style.display = 'flex'
-  };
-  const hideSidebar=()=>{
-    const sidebar = document.querySelector(".sidebar")
-  sidebar.style.display = 'none'
-}
+      setSidebar(!sidebar)
+  }
+  const hideSidebar = () => {
+  setSidebar(!sidebar)
+
+  }
   return (
     <div>
       <div className="navbar">
@@ -21,32 +22,32 @@ const Navbar = () => {
         />
         <nav className="nav-head">
           <ul>
-            <li>
-              <Link className="hideOnMobile link" to="/">
+            <li className="hideOnMobile">
+              <Link className="link" to="/">
                 Home
               </Link>
             </li>
-            <li>
-              <Link className="hideOnMobile link" to="/about">
+            <li className="hideOnMobile">
+              <Link className="link" to="/about">
                 About Us
               </Link>
             </li>
-            <li>
-              <Link className="hideOnMobile link" to="/project">
+            <li className="hideOnMobile">
+              <Link className="link" to="/project">
                 Projects
               </Link>
             </li>
-            <li>
-              <Link className="hideOnMobile link" to="/services">
+            <li className="hideOnMobile">
+              <Link className="link" to="/services">
                 Services
               </Link>
             </li>
-            <li>
-              <Link className="hideOnMobile link" to="/contact">
+            <li className="hideOnMobile">
+              <Link className="link" to="/contact">
                 Contact
               </Link>
             </li>
-            <li>
+          
               <li className="menu" onClick={showSidebar}>
                 <Link className="link" to="">
                   <svg
@@ -60,12 +61,11 @@ const Navbar = () => {
                   </svg>
                 </Link>
               </li>
-            </li>
           </ul>
         </nav>   
         </div>
         <div>  
-        <nav className="nav-head">
+        <nav className="nav-head" style={{display: `${sidebar ? 'block': 'none'}`}}>
           <ul className="sidebar"> 
             <li className="imageLink" onClick={hideSidebar}>
               <svg

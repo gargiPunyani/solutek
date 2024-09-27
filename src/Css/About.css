@@ -115,7 +115,7 @@
         margin-bottom: 1rem;
     }
 }
-@media (max-width:800px) {
+@media (max-width:900px) {
     .aboutUs{
         height: 100%;
         width: 100%;
@@ -127,11 +127,22 @@
     }
     .AboutUSHeader h1{
         padding: 8rem;
-
+      
     }
     .About h6{
         margin-top: -5rem;
 
+    }
+    .AboutSolution h1{
+        font-size: 40px;
+    }
+    .AboutSolution p {
+        font-size: 20px;
+    }
+    .solutionsList {
+        font-size: 18px;
+        margin-top: 1rem;
+        margin-left: -25px;
     }
     .counterImage{
         margin-left: 4rem;
@@ -141,11 +152,27 @@
         margin-bottom: 1rem;
     }
 }
-@media (max-width:450px) {
+@media (max-width:767px) {
     .aboutUs{
         height: 100%;
         width: 100%;
         
+    }
+    .AboutSolution h1{
+        font-size: 28px;
+    }
+    .AboutSolution p{
+        font-size: 17px;
+    }
+    .solutionsList{
+        font-size: 17px;
+        margin-left: -27px;
+    }
+    .countup{
+        font-size: 30px;
+    }
+    .aboutClients p{
+        font-size: 17px;
     }
     .aboutClients{
         height: 31vw;
@@ -157,10 +184,7 @@
         padding: 6rem;
         font-size: 25px;
     }
-    .About h6{
-       display: none;
-
-    }
+    
     .counterImage{
         margin-left: 2rem;
     }

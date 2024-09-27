@@ -44,8 +44,8 @@
 }
 .professionalDetails {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 20%;
-    margin-left: 4rem;
+    /* width: 20%; */
+    /* margin-left: 5rem; */
     margin-bottom: 4rem;
 }
 .ServiceImage img{
@@ -55,18 +55,44 @@
 @media (max-width: 1024px) {
     .professionalDetails
     {
-        width: 37%;
+         margin-left: 3rem;
+        /* width: 37%; */
     }
 }
 @media (max-width: 900px) {
     .professionalDetails
     {
-        width: 37%;
+         margin-left: 2.5rem;
+        /* width: 37%; */
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 767px) {
     .professionalDetails
     {
-        width: 42%;
+         margin-left: 0rem;
+        /* width: 42%; */
     }
-}
+    .success {
+        margin-left: 4rem;
+        padding-top: 2rem;
+    }
+    .professionalServices h2
+{
+    font-size: 25px;
+    padding-left: 0;
+}}
+@media (max-width: 400px) {
+    .professionalDetails
+    {
+         margin-left: 0rem;
+        /* width: 42%; */
+    }
+    .success {
+        margin-left: 1rem;
+        padding-top: 2rem;
+    }
+    .professionalServices h2
+{
+    font-size: 25px;
+    padding-left: 0;
+}}

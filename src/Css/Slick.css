@@ -67,11 +67,11 @@
         height: 40vw;
     }
     .slickHead p {
-        max-height:17vw;
+        max-height:29vw;
         overflow-y: hidden;
     }
 }
-@media (max-width:800px) {
+@media (max-width:900px) {
     .slikee{
         height: 19vw;
         margin-top: -1.1rem;
@@ -79,6 +79,7 @@
     }
     .slikee h3{
         padding: 23px;
+        font-size: 20px;
         font-size: 20px;
     }
     .slickHead{
@@ -89,8 +90,7 @@
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 4;
-      
-        overflow: hidden ;
+         overflow: hidden ;
         text-overflow: ellipsis;
     }
     
@@ -101,7 +101,7 @@
         margin-top: -1.1rem;
     }
     .slickHead{
-        height: 77vw;
+        height:  85vw;
     }
     .slickHead p {
         /* max-height:22vw; */
@@ -112,5 +112,6 @@
         overflow-y: hidden;
         text-overflow: ellipsis;
     }
+    
     
 }

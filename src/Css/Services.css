@@ -46,6 +46,7 @@
   font-weight: 800;
   font-size: 40px;
 }
+
 .itSevicesImage {
   background: url(https://res.cloudinary.com/dixfg1bvv/image/upload/v1722240113/hero-shape_jkgd5s.png);
   width: 100%;
@@ -109,27 +110,73 @@
   .exploreMore{
     width: 33%;
   }
+  .itSevicesImage{
+    display: none;
+  }
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .serviceProvided {
-      padding: 7rem;
+      padding: 15px 30px;
     }
     .itSevicesImage{
         display: none;
     }
+    .itServicesHeader h2{
+      font-size: 26px;
+    }
+    .itServicesHeader p{
+      font-size: 15px;
+    }
   }
-  @media (max-width:450px) {
+  @media (max-width:767px) {
     .services{
-      width: 250%;
-      height: 560px;;
+      width: 100%;
+      /* height: 100%; */
     }
     .serviceProvided {
-      padding: 5rem;
+      padding: 10px 30px;
+        padding-bottom: 0;
     }
     .serviceProvided h5 {
-      width: 38%;
+      width: 68%;
     }
     .itServicesHeader {
-    padding-left: 25px;
+     margin-left: -12%;
+      text-align:start ;
+    }
+  
+  .exploreMore{
+    width: auto;
   }
+
+}
+@media (max-width:400px) {
+  .services{
+    width: 100%;
+    height: 100%;
+  }
+  .serviceProvided {
+    padding: 10px 30px;
+      padding-bottom: 0;
+  }
+  .serviceProvided h5 {
+    width: auto;
+    font-size: 17px;
+
+  }
+  .itServicesHeader {
+   margin-left: -12%;
+    text-align:start ;
+  }
+  .itServicesHeader h2{
+    font-size: 18.5px;
+  }
+  .itServicesHeader p{
+    font-size: 14px;
+  }
+
+.exploreMore{
+  width: auto;
+}
+
 }

@@ -63,9 +63,37 @@ border-radius: 50%;
     background-color: #ff3d00;
     color: #fff;
 }
-@media (max-width:800px) {
+@media (max-width:768px) {
     .projectMade img{
         height: 100%;
         width: 100%;
     }    
+    .projectDone {
+        margin-left: 7%;
+    }
+    .projectDone h3{
+        font-size: 20px;
+    }
+    .marketing p{
+        font-size: 15px;
+    }
+    .arrowIcon{
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+}
+@media (max-width:425px) {
+    .projectDone {
+        margin-left: 7%;
+    }
+    .projectDone h3{
+        font-size: 20px;
+    }
+    .marketing p{
+        font-size: 15px;
+    }
+    .arrowIcon{
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
 }

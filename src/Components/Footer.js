@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="footerAddress">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-6 col-6 address">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-12 address">
               <div className="address1Icon">
                 <img
                   src="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722600015/address1_jo6qn1.png"
@@ -24,7 +24,7 @@ const Footer = () => {
                 <h2>Elevating Customer Experience.</h2>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-6 col-6  address">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-12  address">
               <div className="address2Icon">
                 <img
                   src="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722600015/address2_qzqesp.png"
@@ -41,7 +41,7 @@ const Footer = () => {
       <div className="footer">
         <div className="container">
           <div className="row footerBody">
-            <div className="col-lg-3 col-md-3 col-sm-3 col-3  footerLeftSide">
+            <div className="col-lg-3 col-md-3 col-sm- col-12  footerLeftSide">
               <div>
                 <img className="footerLogo"
                   src="https://res.cloudinary.com/dixfg1bvv/image/upload/v1727262458/WhatsApp_Image_2024-09-25_at_16.34.25_a870efb2_yzhj1c.jpg"
@@ -61,7 +61,7 @@ const Footer = () => {
                 <FaLinkedin className="footerSocialMediaIcon" />
               </div>
             </div>
-            <div className="col-lg-3 col-md-3 col-sm-3 col-3 footerMiddleSide ">
+            <div className="col-lg-3 col-md-3 col-sm- col-12 footerMiddleSide ">
               <h4>Useful Links</h4>
               <ul>
                 <li>
@@ -87,7 +87,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3 col-md-3 col-sm-3 col-3 footerMiddle2Side">
+            <div className="col-lg-3 col-md-3 col-sm- col-12 footerMiddle2Side">
               <h4>Services</h4>
               <ul>
                 <li>
@@ -113,7 +113,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3 col-md-3 col-sm-3 col-3 footerRightSide">
+            <div className="col-lg-3 col-md-3 col-sm- col-12 footerRightSide">
               <div>
                 <h4>Stay Updated </h4>
               </div>

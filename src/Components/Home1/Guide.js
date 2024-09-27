@@ -21,7 +21,8 @@ const Guide = () => {
     }
   };
   return (
-    <div className="conatiner">
+    <div className="container-fluid questionsRelated">
+    <div className="container">
       <div className="row">
         <div className="col-lg-6 col-md-6 col-sm-12 col-12 ">
           <div className="updates">
@@ -36,7 +37,7 @@ const Guide = () => {
               <img
                 src="https://res.cloudinary.com/dixfg1bvv/image/upload/v1722342078/faq1_i01835.png"
                 alt="faq"
-              />
+                />
             </div>
           </div>
         </div>
@@ -53,18 +54,18 @@ const Guide = () => {
           </div>
           <GuideDetails
             open={accordionData.one}
-            question="How we help with software development for business?"
+            question="How we can help with software development for business?"
             answer="We specialize in building custom software solutions that streamline your operations and enhance productivity. Our team works closely with you to understand your requirements, developing scalable and efficient software to support your business goals."
             id={1}
             handleClick={handleOpen}
-          />
+            />
           <GuideDetails
             open={accordionData.two}
-            question="How does Gold Vision ensure the availability of business data?"
+            question="How we ensure the availability of business data?"
             answer="We offer cloud-based infrastructure with high availability and failover mechanisms. Our data centers are equipped with redundancy and disaster recovery plans to ensure your business remains operational, even in the event of an outage."
             id={2}
             handleClick={handleOpen}
-          />
+            />
 
           <GuideDetails
             open={accordionData.three}
@@ -72,10 +73,11 @@ const Guide = () => {
             answer=" Depending on your plan, we offer dedicated support ranging from business hours assistance in the Basic plan to 24/7 priority support in our Premium plan. Our technical experts are always ready to resolve any issues you encounter."
             id={3}
             handleClick={handleOpen}
-          />
+            />
         </div>
       </div>
     </div>
+  </div>
   );
 };
 

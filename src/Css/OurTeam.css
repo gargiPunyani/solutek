@@ -88,7 +88,7 @@
 .feedbackclients{
     margin: 2rem;
 }
-@media (max-width:800px) {
+@media (max-width:786px) {
     .teamMembers h6{
         width: 66%;
         margin: auto;
