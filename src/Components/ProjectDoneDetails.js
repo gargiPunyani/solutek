@@ -16,9 +16,7 @@ const ProjectDoneDetails = ({image, jobType}) => {
             <h3>
                 {jobType}</h3>
         </div>
-        <div>
-            <FaArrowRight className='arrowIcon'/>
-        </div>
+        
         </div>
     </div>
   )

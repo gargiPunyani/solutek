@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <div className="container">        
+        
           <div className="aboutUs">
             <div className="AboutUSHeader">
                <h1>About Us</h1>
@@ -91,7 +91,7 @@ const About = () => {
       {/* <Project /> */}
       <Blog />
       </div>
-      </div>
+      
       <Footer />
     </div>
   );

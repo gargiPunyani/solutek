@@ -20,8 +20,6 @@ const ServicesProvidedDetail = ({image, service}) => {
                 Marketing repurpose success tech sapien maximus design.
                 </p>
 
-                <FaPlus className='plusIcon plus'/> 
-                <span className='readMore'>Read More</span>
             </div>
             <div className='serviceShape'>
                 <img src='https://res.cloudinary.com/dixfg1bvv/image/upload/v1722665764/serice-shape_itb9ar.png' alt='serviceShape'/>

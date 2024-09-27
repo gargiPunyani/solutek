@@ -11,9 +11,7 @@ export const ProfessinalDetails = (props) => {
             <h4>{props.head}</h4>
             <p>{props.details}</p>
         </div>
-        <div >
-            <FaPlus className='plusIcon'/>
-        </div>
+        
     </div>
   )
 }

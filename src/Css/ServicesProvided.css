@@ -10,7 +10,7 @@
 .ServicesGiven {
   display: flex;
   margin-left: 10px;
-
+  padding-bottom: 15px;
 }
 .plus {
   margin-right: 0;

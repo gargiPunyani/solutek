@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../Components/Navbar";
 import { FaAngleLeft } from "react-icons/fa6";
 import ProjectDoneDetails from "../Components/ProjectDoneDetails";
@@ -7,6 +7,13 @@ import Footer from "../Components/Footer";
 
 const ProjectDone = () => {
   // obj = {name, class, age}
+  useEffect(()=>{
+    window.scrollTo({
+      top: 0,
+      left: 100,
+      behavior: "smooth",
+    });
+  })
 
 
   const projectDone = [

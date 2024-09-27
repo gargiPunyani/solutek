@@ -54,12 +54,6 @@ const Footer = () => {
                       NOIDA, UP,  9266539585
                     </p>
                   </div>
-              <div className="footerSocialMedia footerLeft">
-                <FaInstagram className="footerSocialMediaIcon" />
-                <FaFacebook className="footerSocialMediaIcon" />
-                <FaTwitter className="footerSocialMediaIcon" />
-                <FaLinkedin className="footerSocialMediaIcon" />
-              </div>
             </div>
             <div className="col-lg-3 col-md-3 col-sm- col-12 footerMiddleSide ">
               <h4>Useful Links</h4>
